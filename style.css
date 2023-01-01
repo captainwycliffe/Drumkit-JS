@@ -54,13 +54,13 @@ body {
   }
   
   .pressed {
-    box-shadow: 0 3px 4px 0 rgb(0, 0, 0);
+    box-shadow: 0 4px 4px 0 rgb(0, 0, 0);
     transition: ease-in-out;
     opacity: 0.7;
   }
   
   .red {
-    color: red;
+    color: blue;
   }
   
   .drum {
