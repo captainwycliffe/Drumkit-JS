@@ -1,7 +1,7 @@
 var boom = document.querySelectorAll(".drum");
 for (let i = 0; i < boom.length; i++) {
   boom[i].addEventListener("click", function () {
-    var buttonInnerHtml = this.innerHTML;
+    var  buttonInnerHtml = this.innerHTML;
    
     makeSound(buttonInnerHtml);
 
